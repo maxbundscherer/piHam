@@ -1,0 +1,2 @@
+
+vcgencmd measure_temp
