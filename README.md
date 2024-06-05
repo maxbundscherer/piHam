@@ -2,8 +2,15 @@
 
 ## Screen
 
-- Set resolution to `1280x720` (Menu > Preferences > Screen Configuration)
+- Set resolution to `1280x720` (Menu > Preferences > Screen Configuration) (Default is `1024x600`)
 - Set display mode to `medium` (Desktop > Desktop Configuration)
+
+## Raspberry Pi 5 VNC Fix
+
+Bookworm VNC Config
+
+- Open `raspi-config` and set `x11` as default (`Advanced Options > Wayland`)
+- Open `raspi-config` and enable VNC
 
 ## GPS
 
@@ -117,3 +124,7 @@ refclock SHM 0 offset 0.5 delay 0.2 refid NMEA
 - Install with `sudo apt-get install wsjtx -y`
 - Set audio input in WSJTX to `alsa_input.usb-Burr-Brown_from_TLUSB_Audio_CODEC-00.analog-stereo`
 - Set audio output in WSJTX to `alsa_output.usb-Burr-Brown_from_TLUSB_Audio_CODEC-00.analog-stereo`
+
+## FLDIGI
+
+- Install with `sudo apt-get install fldigi -y`
