@@ -128,3 +128,7 @@ refclock SHM 0 offset 0.5 delay 0.2 refid NMEA
 ## FLDIGI
 
 - Install with `sudo apt-get install fldigi -y`
+
+## WFVIEW
+
+- Install with `sudo apt-get install wfview -y`
